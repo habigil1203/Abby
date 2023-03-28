@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gallery Page</title>
+    <style>
+      *{
+            box-sizing: border-box;
+        }
+
+        body{
+            margin: 0;
+        }
+        .row{
+            padding: 50px;
+        }
+        .col1{
+            width: 25%;
+            padding: 10px 10px 20px 10px;
+            border: 2px solid white;
+            background-color: orange;
+            box-shadow: 10px 10px 5px black;
+            float: left;
+            -ms-transform: rotate(7deg);
+            -webkit-transform: rotate(7deg);
+            transform: rotate(7deg)
+
+        }
+        .col1 span{
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .col1 p{
+            border: 2px solid black;
+            margin-top: 20px;
+        }
+        .col1:hover{
+            transform: rotate(0deg);
+        }
+
+        .col2{
+            width: 25%;
+            padding: 10px 10px 20px 10px;
+            border: 2px solid white;
+            background-color: orange;
+           box-shadow: 10px 10px 5px black;
+            float: left;
+            -ms-transform: rotate(-8deg);
+            -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
+
+        }
+        .col2 span{
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .col2 p{
+            border: 2px solid black;
+            margin-top: 20px;
+        }
+        .col2:hover{
+            transform: rotate(0deg);
+        }
+        .row:after{
+            content:" ";
+            display: table;
+            clear: Both;
+        }
+        @media screen and (max-width:600px){
+            .col1{
+                width:100%;
+            }
+            .col2{
+                width:100%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="row">
+
+        <div class="col1"> 
+            <img src="img/hinata.webp" width="100%">
+            <span>HINATA</span>
+            <p class="desc1">Shōyō Hinata (Japanese: 日向ひなた 翔陽しょうよう Hinata Shōyō) 
+            is the main protagonist of the Haikyū!! series by Haruichi Furudate. For the majority of the series, 
+            Hinata was a first-year student at Karasuno High and one of the volleyball teams middle blockers.
+            </p>
+  
+        </div>  
+
+        <div class="col2">
+            <img src="img/kageyama.jpg" width="100%">
+            <span>KAGEYAMA</span>
+            <p class="desc2">Tobio Kageyama (Japanese: 影山かげやま 飛雄とびお Kageyama Tobio) is the 
+                    deuteragonist of the Haikyū!! series. 
+                    For the majority of the series, 
+                    he is a first-year student at Karasuno High School 
+                    and plays as the starting setter for the boys' volleyball club.
+              </p>
+       
+        </div>
+    
+        <!-- -->
+            <div class="col1">
+                    <img src="img/tanaka.jpg" width="100%">
+                    <span>TANAKA</span>
+                    <p class="desc1">Ryūnosuke Tanaka (Japanese: 田中たなか 龍之介りゅうのすけ Tanaka Ryūnosuke) for the
+                         majority of the series is a second year student at Karasuno High. He is part of the boys 
+                         volleyball club and plays as a starting wing spiker.
+                    </p>
+            
+         </div>
+                
+             <div class="col2">
+                        <img src="img/Nishinoya.webp" width="100%">
+                        <span>NISHINOYA</span>
+                        <p class="desc2">Yū Nishinoya (Japanese: 西谷にしのや 夕ゆう Nishinoya Yū) was a second-year 
+                            student at Karasuno High School. 
+                            He served as the libero for the school's volleyball team and
+                             was referred to by his teammates as "Karasuno's Guardian Deity" for his remarkable skills.
+                        </p>
+            </div>
+   </div>
+   <div class="row">
+
+    <div class="col1"> 
+        <img src="img/asahi.jpg" width="100%">
+        <span>ASAHI</span>
+        <p class="desc1">Asahi Azumane (Japanese: 東峰 あずまね 旭 あさひ , Azumane Asahi)
+            is a third year student at Karasuno High. He was one of the boys' volleyball club's wing spikers 
+            and its ace
+        </p>
+
+    </div>  
+
+    <div class="col2">
+        <img src="img/tsuki.webp" width="100%">
+        <span>TSUKI</span>
+        <p class="desc2">Kei Tsukishima (Japanese: 月島つきしま 蛍けい Tsukishima Kei) is a first year at Karasuno High. 
+            He plays as one of the starting middle blockers on the boys volleyball team
+          </p>
+   
+    </div>
+
+    <!-- -->
+        <div class="col1">
+                <img src="img/daichi.jpg" width="100%">
+                <span>DAICHI</span>
+                <p class="desc1">
+                    Daichi Sawamura (Japanese: 澤村さわむら 大地だいち Sawamura Daichi) is a third year student attending Karasuno High. 
+                    He is the captain of the boys volleyball team and one of the starting wing spikers. 
+                </p>
+        
+     </div>
+            
+         <div class="col2">
+                    <img src="img/Yamaguchi.webp" width="100%">
+                    <span>YAMAGUCHI</span>
+                    <p class="desc2">Tadashi Yamaguchi (Japanese: 山口やまぐち 忠ただし Yamaguchi Tadashi) is a first year student at Karasuno 
+                        High. He plays on the boys volleyball team as a middle blocker and pinch server. 
+                        During his third year, he became the team captain.
+                    </p>
+        </div>
+</div>
+<div class="row">
+
+    <div class="col1"> 
+        <img src="img/sugawara.jpg" width="100%">
+        <span>SUGAWARA</span>
+        <p class="desc1">Kōshi Sugawara (Japanese: 菅原すがわら 孝支こうし Sugawara Kōshi) is a third year student at Karasuno High. 
+            He is vice-captain of the boys volleyball team and plays as a substitute setter and pinch server.
+        </p>
+
+    </div>  
+
+    <div class="col2">
+        <img src="img/kiyoko.webp" width="100%">
+        <span>KIYOKO</span>
+        <p class="desc2">Kiyoko Shimizu (Japanese: 清水 しみず 潔子 きよこ , Shimizu Kiyoko) is a third year student at Karasuno High. 
+            She is one of the managers for the Karasuno boys' volleyball team for majority of the series.
+          </p>
+   
+    </div>
+
+    <!-- -->
+        <div class="col1">
+                <img src="img/ukai.webp" width="100%">
+                <span>UKAI</span>
+                <p class="desc1">Keishin Ukai (Japanese: 烏養 うかい 繋心 けいしん , Ukai Keishin) is the current coach of Karasuno High boys' volleyball club. 
+                    he is also an alumnus and former player on the team, having played as a setter.
+                </p>
+        
+     </div>
+            
+         <div class="col2">
+                    <img src="img/ittetsu.avif" width="100%">
+                    <span>ITTETSU</span>
+                    <p class="desc2">Ittetsu Takeda (Japanese: 武田たけだ 一鉄いってつ Takeda Ittetsu) is the faculty advisor and 
+                        head coach of the Karasuno High boys' volleyball club, though the practical coaching is 
+                        performed by Keishin Ukai.
+                    </p>
+        </div>
+</div>
+        
+</body>
+</html>
